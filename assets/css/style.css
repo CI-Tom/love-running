@@ -14,11 +14,12 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, snas-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#252525;
+    color: #252525;
 }
 
 #logo {
@@ -32,7 +33,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -57,7 +59,8 @@ h1, h2 {
 
 /* hero image and cover text */
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -82,9 +85,10 @@ h1, h2 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
